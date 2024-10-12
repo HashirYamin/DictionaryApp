@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/pof_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noun"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/my_primary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Defination: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/defination_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 defination \n\n another \n\n third "/>
+    <TextView
+        android:id="@+id/synonymsTitleTextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Synonyms: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/synonyms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 asad , asadia , asdaada "/>
+    <TextView
+        android:id="@+id/antonyms_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Antonyms:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/antonyms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 asad , asadia , asdaada "/>
+
+
+</LinearLayout>
