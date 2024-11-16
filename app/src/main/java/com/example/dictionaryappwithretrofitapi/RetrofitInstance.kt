@@ -13,7 +13,5 @@ object RetrofitInstance {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
-
     val dictionaryApi: DictionaryApi = getInstance().create(DictionaryApi::class.java)
-
 }
