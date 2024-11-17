@@ -44,10 +44,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    private fun hideTextWordOfTheDay() {
 
-
-    }
     private fun showWordOfTheDay() {
         // A predefined list of words to improve vocabulary
         val vocabWords = listOf(
