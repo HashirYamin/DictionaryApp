@@ -15,6 +15,9 @@
         android:theme="@style/Theme.DictionaryAppWithRetrofitApi"
         tools:targetApi="31">
         <activity
+            android:name=".SavedWordsActivity"
+            android:exported="false" />
+        <activity
             android:name=".splashscreen"
             android:exported="true">
             <intent-filter>

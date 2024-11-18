@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.dictionaryappwithretrofitapi.databinding.MeaningRecyclerRowBinding;
 
-public class MeaningAdapter(private var meaningList: List<Meaning>) : RecyclerView.Adapter<MeaningAdapter.MeaningViewHolder>() {
+public class MeaningAdapter(var meaningList: List<Meaning>) : RecyclerView.Adapter<MeaningAdapter.MeaningViewHolder>() {
     class MeaningViewHolder( private val binding :MeaningRecyclerRowBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(meaning: Meaning) {
             binding.pofTextView.text = meaning.partOfSpeech
