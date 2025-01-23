@@ -19,6 +19,7 @@
         android:backgroundTint="@color/white"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:windowSoftInputMode="adjustResize"
         app:menu="@menu/bottom_nav_menu" />
 
 </RelativeLayout>
